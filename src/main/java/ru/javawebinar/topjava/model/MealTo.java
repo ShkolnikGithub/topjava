@@ -39,9 +39,9 @@ public class MealTo {
         return excess;
     }
 
-//    public Boolean getExcess() {
-//        return excess.get();
-//    }
+    public Boolean getExcess() {
+        return excess;
+    }
 
     // for filteredBySetterRecursion
     public void setExcess(boolean excess) {
