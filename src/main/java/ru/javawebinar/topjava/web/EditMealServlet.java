@@ -15,6 +15,6 @@ public class EditMealServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/editMeal.jsp").forward(request, response);
+        request.getRequestDispatcher("/mealEdit.jsp").forward(request, response);
     }
 }
