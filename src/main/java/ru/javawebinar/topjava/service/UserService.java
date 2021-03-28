@@ -35,7 +35,7 @@ public class UserService {
         return checkNotFound(repository.getByEmail(email), "email=" + email);
     }
 
-    public Collection<User> getAll() {
+    public List<User> getAll() {
         return repository.getAll();
     }
 
